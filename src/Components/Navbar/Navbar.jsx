@@ -29,7 +29,7 @@ const Navbar = () => {
         <div>
           <Link to={"/"}>
             {" "}
-            <img src={logo} className="w-16 sm:w-20 cursor-pointer" alt="" />
+            <img src={logo} className="w-16 h-8 object-contain sm:h-10 cursor-pointer" alt="" />
           </Link>
         </div>
         <form onSubmit={handlenavigate} className="relative w-fu96 flex group border border-gray-400 dark:border-gray-600 dark:group-focus-within:border-gray-400  rounded-full  ">
